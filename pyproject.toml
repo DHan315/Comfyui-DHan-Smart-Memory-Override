@@ -11,17 +11,4 @@ Repository = "https://github.com/DHan315/ComfyUI-Smart-Memory-Override"
 
 [tool.comfy]
 PublisherId = "dhan315"
-DisplayName = "Smart Memory Override"[project]
-name = "smart-memory-override"
-version = "1.0.0"
-description = "Manual Smart Memory control nodes for ComfyUI."
-license = { file = "LICENSE" }
-dependencies = []
-
-[project.urls]
-Repository = "https://github.com/DHan315/ComfyUI-Smart-Memory-Override"
-"Bug Tracker" = "https://github.com/DHan315/ComfyUI-Smart-Memory-Override/issues"
-
-[tool.comfy]
-PublisherId = "dhan315"
 DisplayName = "Smart Memory Override"
