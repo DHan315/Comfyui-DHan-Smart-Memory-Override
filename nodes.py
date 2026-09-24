@@ -24,7 +24,7 @@ class DisableSmartMemoryModel:
     RETURN_TYPES = ("MODEL",)
     RETURN_NAMES = ("model",)
     FUNCTION = "run"
-    CATEGORY = "model_patches/memory"
+    CATEGORY = "Comfyui-DHan/Memory"
     DESCRIPTION = (
         "Disables ComfyUI Smart Memory globally at runtime, then passes MODEL through. "
         "Targets the same DISABLE_SMART_MEMORY flag initialized by --disable-smart-memory."
@@ -43,7 +43,7 @@ class SmartMemoryOverrideModel:
     RETURN_TYPES = ("MODEL",)
     RETURN_NAMES = ("model",)
     FUNCTION = "run"
-    CATEGORY = "model_patches/memory"
+    CATEGORY = "Comfyui-DHan/Memory"
     DESCRIPTION = (
         "Runtime Smart Memory control. This is global ComfyUI state, not per-model."
     )
@@ -58,7 +58,7 @@ class EnableSmartMemoryModel:
     RETURN_TYPES = ("MODEL",)
     RETURN_NAMES = ("model",)
     FUNCTION = "run"
-    CATEGORY = "model_patches/memory"
+    CATEGORY = "Comfyui-DHan/Memory"
     DESCRIPTION = "Re-enables ComfyUI Smart Memory globally at runtime."
     def run(self, model):
         _set_disabled(False)
@@ -70,7 +70,7 @@ NODE_CLASS_MAPPINGS = {
     "EnableSmartMemoryModel": EnableSmartMemoryModel,
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "DisableSmartMemoryModel": "Disable Smart Memory (Model)",
-    "SmartMemoryOverrideModel": "Smart Memory Override (Model)",
-    "EnableSmartMemoryModel": "Enable Smart Memory (Model)",
+    "DisableSmartMemoryModel": "Comfyui-DHan-Disable Smart Memory (Model)",
+    "SmartMemoryOverrideModel": "Comfyui-DHan-Smart Memory Override (Model)",
+    "EnableSmartMemoryModel": "Comfyui-DHan-Enable Smart Memory (Model)",
 }

@@ -1,9 +1,9 @@
-# ComfyUI Smart Memory Override v1.0.0
+# Comfyui-DHan-Smart-Memory-Override v1.0.0
 
 This targets ComfyUI Smart Memory, not Dynamic VRAM.
 
 Use:
-Klein Model Loader -> Disable Smart Memory (Model) -> sampler
+Klein Model Loader -> Comfyui-DHan-Disable Smart Memory (Model) -> sampler
 
 It sets:
 comfy.model_management.DISABLE_SMART_MEMORY = True
