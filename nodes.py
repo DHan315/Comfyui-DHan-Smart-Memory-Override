@@ -70,7 +70,7 @@ NODE_CLASS_MAPPINGS = {
     "EnableSmartMemoryModel": EnableSmartMemoryModel,
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "DisableSmartMemoryModel": "Comfyui-DHan-Disable Smart Memory (Model)",
-    "SmartMemoryOverrideModel": "Comfyui-DHan-Smart Memory Override (Model)",
-    "EnableSmartMemoryModel": "Comfyui-DHan-Enable Smart Memory (Model)",
+    "DisableSmartMemoryModel": "DHan-Disable Smart Memory (Model)",
+    "SmartMemoryOverrideModel": "DHan-Smart Memory Override (Model)",
+    "EnableSmartMemoryModel": "DHan-Enable Smart Memory (Model)",
 }
